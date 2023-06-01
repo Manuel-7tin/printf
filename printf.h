@@ -9,6 +9,7 @@
 #include <limits.h>
 #include <stdint.h>
 
+int _printf(char *l, ...);
 int print_str(char *s);
 char *int_to_str(int n);
 char *unsigned_int_to_str(unsigned int n);
